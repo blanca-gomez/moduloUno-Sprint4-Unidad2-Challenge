@@ -73,9 +73,26 @@ table {
 }
 
 ul {  
+  padding:20px;
   padding-top: 100px;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
 }
+
+#character-list h1{
+  text-align: center;
+  font-weight: bold;
+}
+
+#character-list p{
+  font-style: oblique;
+  font-size: small;
+  text-align: center;
+}
+
 
 
 
